@@ -9,7 +9,7 @@ They only verify that the core GPT anatomy works:
 - simple autoregressive generation appends tokens
 - the causal attention module preserves [batch, tokens, emb_dim]
 
-Run locally from the repository root with: super
+Run locally from the repository root with: super bien
 
     python -m pytest tests/test_ch04_gpt_anatomy.py.
 """
